@@ -2,7 +2,7 @@
 
 ![Unmarked Image](resources/unmarked.png)
 
-![Marked Image](images/marked.png)
+![Marked Image](resources/marked.png)
 
 ## 1. Marking Objects in Google Earth
 
