@@ -1,5 +1,9 @@
 # Google Earth Parser
 
+![Unmarked Image](resources/unmarked.png)
+
+![Marked Image](images/marked.png)
+
 ## 1. Marking Objects in Google Earth
 
 Go to [Google Earth](https://earth.google.com/) to mark objects. Use either the measurement tool to draw a polygon or add a placemarker for each proto. Name objects based on their type:
