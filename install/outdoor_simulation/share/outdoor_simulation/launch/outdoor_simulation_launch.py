@@ -23,7 +23,7 @@ def generate_launch_description():
     return LaunchDescription([
         DeclareLaunchArgument(
             'world',
-            default_value='outside.wbt',
+            default_value='outdoor.wbt',
             description='Choose one of the world files from the `/indoor_simulation/worlds` directory'
         ),
         webots,

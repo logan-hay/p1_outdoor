@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.000605] (outdoor_simulation) JobQueued: {'identifier': 'outdoor_simulation', 'dependencies': OrderedDict()}
+[0.000976] (outdoor_simulation) JobStarted: {'identifier': 'outdoor_simulation'}
+[0.097856] (-) TimerEvent: {}
+[0.198570] (-) TimerEvent: {}
+[0.299415] (-) TimerEvent: {}
+[0.400350] (-) TimerEvent: {}
+[0.501363] (-) TimerEvent: {}
+[0.602466] (-) TimerEvent: {}
+[0.703534] (-) TimerEvent: {}
+[0.804418] (-) TimerEvent: {}
+[0.905566] (-) TimerEvent: {}
+[1.006308] (-) TimerEvent: {}
+[1.108088] (-) TimerEvent: {}
+[1.209955] (-) TimerEvent: {}
+[1.310767] (-) TimerEvent: {}
+[1.411609] (-) TimerEvent: {}
+[1.512549] (-) TimerEvent: {}
+[1.613401] (-) TimerEvent: {}
+[1.714401] (-) TimerEvent: {}
+[1.815702] (-) TimerEvent: {}
+[1.916333] (-) TimerEvent: {}
+[2.020199] (-) TimerEvent: {}
+[2.120977] (-) TimerEvent: {}
+[2.222043] (-) TimerEvent: {}
+[2.322883] (-) TimerEvent: {}
+[2.423755] (-) TimerEvent: {}
+[2.524771] (-) TimerEvent: {}
+[2.625452] (-) TimerEvent: {}
+[2.726168] (-) TimerEvent: {}
+[2.826953] (-) TimerEvent: {}
+[2.927617] (-) TimerEvent: {}
+[3.028490] (-) TimerEvent: {}
+[3.129286] (-) TimerEvent: {}
+[3.230122] (-) TimerEvent: {}
+[3.309221] (outdoor_simulation) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/outdoor_simulation', 'build', '--build-base', '/mnt/c/Users/ljhay/p1_outdoor/build/outdoor_simulation/build', 'install', '--record', '/mnt/c/Users/ljhay/p1_outdoor/build/outdoor_simulation/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/c/Users/ljhay/p1_outdoor/src/outdoor_simulation', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ljhay', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/ljhay', 'OLDPWD': '/mnt/c/Users/ljhay', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/Users/ljhay/p1_indoor/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ljhay', 'NAME': 'LoganHay', 'WSL_INTEROP': '/run/WSL/27144_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/ljhay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Users/ljhay/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ljhay/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ljhay/AppData/Local/Box/Box Edit/:/snap/bin', 'WT_SESSION': '12ce323d-d6c4-43f0-968c-b1adf899075d', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '40', 'AMENT_PREFIX_PATH': '/opt/ros/humble:/mnt/c/Users/ljhay/p1_indoor/install/indoor_simulation', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/mnt/c/Users/ljhay/p1_outdoor/build/outdoor_simulation', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Users/ljhay/p1_outdoor/build/outdoor_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/ljhay/p1_outdoor/install/outdoor_simulation/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/mnt/c/Users/ljhay/p1_indoor/install/indoor_simulation/lib/python3.10/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[3.330246] (-) TimerEvent: {}
+[3.431090] (-) TimerEvent: {}
+[3.531803] (-) TimerEvent: {}
+[3.632539] (-) TimerEvent: {}
+[3.733152] (-) TimerEvent: {}
+[3.834013] (-) TimerEvent: {}
+[3.934749] (-) TimerEvent: {}
+[4.035481] (-) TimerEvent: {}
+[4.136539] (-) TimerEvent: {}
+[4.237128] (-) TimerEvent: {}
+[4.337852] (-) TimerEvent: {}
+[4.438597] (-) TimerEvent: {}
+[4.539274] (-) TimerEvent: {}
+[4.639998] (-) TimerEvent: {}
+[4.740691] (-) TimerEvent: {}
+[4.805107] (outdoor_simulation) StdoutLine: {'line': b'running egg_info\n'}
+[4.812902] (outdoor_simulation) StdoutLine: {'line': b'writing ../../build/outdoor_simulation/outdoor_simulation.egg-info/PKG-INFO\n'}
+[4.821380] (outdoor_simulation) StdoutLine: {'line': b'writing dependency_links to ../../build/outdoor_simulation/outdoor_simulation.egg-info/dependency_links.txt\n'}
+[4.831834] (outdoor_simulation) StdoutLine: {'line': b'writing entry points to ../../build/outdoor_simulation/outdoor_simulation.egg-info/entry_points.txt\n'}
+[4.838556] (outdoor_simulation) StdoutLine: {'line': b'writing requirements to ../../build/outdoor_simulation/outdoor_simulation.egg-info/requires.txt\n'}
+[4.840822] (-) TimerEvent: {}
+[4.842914] (outdoor_simulation) StdoutLine: {'line': b'writing top-level names to ../../build/outdoor_simulation/outdoor_simulation.egg-info/top_level.txt\n'}
+[4.901458] (outdoor_simulation) StdoutLine: {'line': b"reading manifest file '../../build/outdoor_simulation/outdoor_simulation.egg-info/SOURCES.txt'\n"}
+[4.940987] (-) TimerEvent: {}
+[4.995826] (outdoor_simulation) StdoutLine: {'line': b"writing manifest file '../../build/outdoor_simulation/outdoor_simulation.egg-info/SOURCES.txt'\n"}
+[5.000017] (outdoor_simulation) StdoutLine: {'line': b'running build\n'}
+[5.002330] (outdoor_simulation) StdoutLine: {'line': b'running build_py\n'}
+[5.033573] (outdoor_simulation) StdoutLine: {'line': b'running install\n'}
+[5.036684] (outdoor_simulation) StdoutLine: {'line': b'running install_lib\n'}
+[5.041103] (-) TimerEvent: {}
+[5.141782] (-) TimerEvent: {}
+[5.154074] (outdoor_simulation) StdoutLine: {'line': b'running install_data\n'}
+[5.209319] (outdoor_simulation) StdoutLine: {'line': b'copying worlds/outdoor.wbt -> /mnt/c/Users/ljhay/p1_outdoor/install/outdoor_simulation/share/outdoor_simulation/worlds\n'}
+[5.241916] (-) TimerEvent: {}
+[5.301280] (outdoor_simulation) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.321633] (outdoor_simulation) StdoutLine: {'line': b"removing '/mnt/c/Users/ljhay/p1_outdoor/install/outdoor_simulation/lib/python3.10/site-packages/outdoor_simulation-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.342076] (-) TimerEvent: {}
+[5.410669] (outdoor_simulation) StdoutLine: {'line': b'Copying ../../build/outdoor_simulation/outdoor_simulation.egg-info to /mnt/c/Users/ljhay/p1_outdoor/install/outdoor_simulation/lib/python3.10/site-packages/outdoor_simulation-0.0.0-py3.10.egg-info\n'}
+[5.442234] (-) TimerEvent: {}
+[5.542851] (-) TimerEvent: {}
+[5.643553] (-) TimerEvent: {}
+[5.730020] (outdoor_simulation) StdoutLine: {'line': b'running install_scripts\n'}
+[5.743763] (-) TimerEvent: {}
+[5.845435] (-) TimerEvent: {}
+[5.848099] (outdoor_simulation) StdoutLine: {'line': b'Installing outdoor_simulation script to /mnt/c/Users/ljhay/p1_outdoor/install/outdoor_simulation/lib/outdoor_simulation\n'}
+[5.865402] (outdoor_simulation) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/Users/ljhay/p1_outdoor/build/outdoor_simulation/install.log'\n"}
+[5.915584] (outdoor_simulation) CommandEnded: {'returncode': 0}
+[5.945559] (-) TimerEvent: {}
+[6.046414] (-) TimerEvent: {}
+[6.147393] (-) TimerEvent: {}
+[6.248055] (-) TimerEvent: {}
+[6.281839] (outdoor_simulation) JobEnded: {'identifier': 'outdoor_simulation', 'rc': 0}
+[6.295980] (-) EventReactorShutdown: {}
