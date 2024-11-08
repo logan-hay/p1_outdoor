@@ -31,8 +31,7 @@ def parse_kml(file_path, output_file):
 
         # Set the first coordinate as the origin if it hasn't been set yet
         if origin_lat is None and origin_lon is None:
-            origin_lon = -87.56856191077318 # Currently hard coded to the current projects origin
-            origin_lat = 33.20219960569318 
+            origin_lon, origin_lat, _ = coordinates[0] 
 
         # Convert each coordinate to meters relative to origin
         relative_coords = []
