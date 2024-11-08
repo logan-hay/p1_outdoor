@@ -1,0 +1,6 @@
+[console_scripts]
+outdoor_simulation = outdoor_simulation.outdoor_simulation:main
+
+[launch.frontend.launch_extension]
+launch_ros = launch_ros
+
