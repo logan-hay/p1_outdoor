@@ -13,8 +13,8 @@ Go to [Google Earth](https://earth.google.com/) to mark objects. Use either the 
    
    - **Using the placemarker tool:**
      - **"tree"** - Places a tree proto with randomly generated height and width
-     - **"sl#"** - Street light proto (replace `#` with `n`, `e`, `s`, or `w` to indicate direction)
-     - **"Stop_sign"** - Places a stop sign proto
+     - **"sl_#"** - Street light proto (replace `#` with `n`, `e`, `s`, or `w` to indicate direction)
+     - **"Stop_sign_#"** - Places a stop sign proto (replace `#` with `n`, `e`, `s`, or `w` to indicate direction)
 
 ## 2. Export as KML
 
